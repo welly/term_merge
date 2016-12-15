@@ -1,0 +1,4 @@
+term_merge.tabs:
+  route_name: term_merge.term_merge_form
+  title: 'Merge terms'
+  base_route: entity.taxonomy_vocabulary.overview_form

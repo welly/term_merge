@@ -1,0 +1,12 @@
+term_merge.term_merge_form:
+  path: '/admin/structure/taxonomy/manage/{taxonomy_vocabulary}/merge'
+  defaults:
+    _form: '\Drupal\term_merge\Form\TermMergeForm'
+    _title: 'Merge terms'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+    parameters:
+      taxonomy_vocabulary:
+        type: 'entity:taxonomy_vocabulary'
